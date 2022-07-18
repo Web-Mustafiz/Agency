@@ -17,6 +17,7 @@ font-family: 'Roboto', sans-serif;
 
 p {
     text-align: justify;
+    color: #777;
 }
 
 .header {
@@ -200,3 +201,48 @@ p {
     padding: 15px 0;
 }
 
+.about-sec {
+    margin-top: 150px;
+}
+
+.about {
+    display: flex;
+    padding: 0 50px;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.about-img {
+    width: 60%;
+    /* margin-right: 50px; */
+}
+
+.about-img img{
+    height: 55%;
+}
+
+.about-content {
+    width: 25%;
+    margin-left: 50px; 
+    padding: 0 25px;
+    color: #777;
+}
+
+.about-content p {
+    padding: 15px 0;
+}
+
+.check-list {
+    margin: 15px 0;
+}
+
+.check-list li {
+    list-style: none;
+}
+
+.check-list li::before {
+    content: "\2713";
+    margin-right: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
